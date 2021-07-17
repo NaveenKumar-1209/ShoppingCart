@@ -1,0 +1,22 @@
+.Header{
+    background-color: #f52f5d;
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.logo h1{
+    color:#fff;
+
+}
+.ListStyle ul{
+    list-style: none;
+    display:flex;
+}
+.ListStyle ul li{
+    padding-top:5px;
+    padding-right:30px;
+}
+.ListStyle ul li a {
+    color:#fff;
+    text-decoration: none; 
+}

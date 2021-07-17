@@ -1,0 +1,35 @@
+.ListItem{
+    width:63.5vw;
+    margin:auto;
+}
+.ListItem ul{
+    list-style: none;
+    display:grid;
+    grid-template-columns: auto auto;
+    box-shadow: 0 5px 32px 0 rgba(0, 0, 0, 0.2), 0 1px 20px 0 rgba(0, 0, 0, 0.19);
+    transition:100ms;
+    margin:14px;
+    border-radius: 10px;
+}
+.ListItem ul li{
+    padding:30px;
+}
+.ListItem img{
+    width:268px;
+    height:330px;
+    border: solid 1px #787576;
+    padding:30px;
+}
+.specification p{
+    font-size: 0.75rem;
+    color:#787576;
+}
+.BuyButton{
+    display:flex;
+}
+.BuyButton li Button{
+    width:150px;
+    height:50px;
+    color:#fff;
+    font-weight: bold;
+}
